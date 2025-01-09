@@ -3,8 +3,8 @@ from django.test import TestCase
 from django.urls import reverse
 from rest_framework.test import APIClient
 from rest_framework import status
-from LittleLemonAPI.models import MenuItem
-from LittleLemonAPI.serializers import MenuItemSerializer
+from restaurant.models import MenuItem
+from restaurant.serializers import MenuItemSerializer
 
 class MenuViewTest(TestCase):
     def setUp(self):
